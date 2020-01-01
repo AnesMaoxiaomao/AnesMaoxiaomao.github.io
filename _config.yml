@@ -1,7 +1,7 @@
 # Site settings
 title: Med and Tech Blog
 SEOTitle: 猫夭夭的博客 | Med and Tech Blog by xjmaoyaoyao
-header-img: img/post-bg-desk.jpg
+header-img: img/cat.jpg
 email: xjmaoyaoyao@gmail.com
 description: "小医生的三脚猫技术体验，安卓搞机、科学上网、文献检索。"
 keyword: "Med and Tech Blog, xjmaoyaoyao, 猫夭夭的博客, 科学上网, Android, 文献检索"
@@ -11,7 +11,7 @@ github_repo: "https://github.com/xjmaoyaoyao/xjmaoyaoyao.github.io" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "此处应有装逼，没想好"
+sidebar-about-description: "小医生的三脚猫技术体验，安卓搞机、科学上网、文献检索。"
 sidebar-avatar: /img/me_rainbow.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
