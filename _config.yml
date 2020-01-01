@@ -24,7 +24,9 @@ github_username:    xjmaoyaoyao
 # facebook_username:   
 # jianshu_username:   
 # twitter_username:   
-
+mastodon:
+     - username: maoyaoyao
+       instance: mastodon.social
 
 
 
