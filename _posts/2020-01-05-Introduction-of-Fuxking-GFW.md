@@ -166,7 +166,7 @@ clowwindy大神被请去喝茶后，Shadowsocks项目已经从GitHub上被删除
 <br><br>
 
 ### Trojan
-> Trojan is an unidentifiable mechanism for bypassing GFW. This documentation introduces the trojan protocol, explains its underlying ideas, and provides a guide to it.
+> An unidentifiable mechanism that helps you bypass GFW. <br><br>Trojan features multiple protocols over TLS to avoid both active/passive detections and ISP QoS limitations.<br><br>Trojan is not a fixed program or protocol. It's an idea, an idea that imitating the most common service, to an extent that it behaves identically, could help you get across the Great FireWall permanently, without being identified ever. We are the GreatER Fire; we ship Trojan Horses.
 
 [项目地址](https://trojan-gfw.github.io/trojan/)<br>
 
