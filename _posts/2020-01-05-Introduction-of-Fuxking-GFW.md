@@ -4,7 +4,7 @@ title:     科学上网导论：献给学习欲旺盛的你 				# 标题
 subtitle:   翻墙基本概念知识  #副标题
 date:       2020-01-05 				# 时间
 author:     xjmaoyaoyao 						# 作者
-header-img: https://pic2.zhimg.com/df33fb4b5d9a5ac2b14a18e0f6416692_1200x500.jpg 	#这篇文章标题背景图片
+header-img: img/header.jpg	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - 网络
