@@ -8,9 +8,13 @@ header-img: img/header.jpg	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - 网络
-    - CS
+    - CS基础课
     - 翻墙（科学上网）
     - shadowsocks（ss）
+    - V2Ray
+    - Trojan
+    - 费曼学习法
+    - Geph迷雾通
     - VPN
     - 代理
 ---
@@ -183,11 +187,11 @@ even when nothing else works.
 <br><br>
 
 我自己用的就是以上几款+Tor。Tor比较特殊，速度极慢，与其说是翻墙，不如说是为了安全。<br>
-其他的我也不一一列举了。推荐编程随想的博客，大神不论是知识还是表达能力都比我强多了（笑）<br>
+其他的我也不一一列举了。如果实在要学，可以在翻墙后上编程随想的博客，大神不论是知识还是表达能力都比我强多了（笑）<br>
 
-[编程随想：如何翻墙 (全方位入门扫盲)](https://program-think.blogspot.com/2009/05/how-to-break-through-gfw.html)<br>
+[编程随想：如何翻墙 (全方位入门扫盲)【需要翻墙后再看】](https://program-think.blogspot.com/2009/05/how-to-break-through-gfw.html)<br>
 
-[编程随想：2019年6月翻墙快报（兼谈用 I2P 突破封锁）](https://program-think.blogspot.com/2019/06/gfw-news.html)<br>
+[编程随想：2019年6月翻墙快报（兼谈用 I2P 突破封锁）【需要翻墙后再看】](https://program-think.blogspot.com/2019/06/gfw-news.html)<br>
 
 ***
 > 中华人民共和国的互联网创建于1987年。1987年9月20日，在北京ICA王运丰教授和西德卡尔斯鲁厄大学维尔纳·措恩教授的主导下，中华人民共和国大陆地区与外界互联网创建了首个连接。而中国第一封成功对外发出的电邮则是在1987年9月14日发出，内容为“Across the Great Wall, we can reach every corner in the world”（越过长城，走向世界每个角落）。
