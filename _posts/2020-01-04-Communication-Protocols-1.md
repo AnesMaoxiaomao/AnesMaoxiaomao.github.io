@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      小白也能看懂的网络协议基础知识（一） 				# 标题 
+title:      小白也能看懂的网络协议基础知识（一）链结层 				# 标题 
 subtitle:   费曼学习法  #副标题
 date:       2020-01-04 				# 时间
 author:     xjmaoyaoyao 						# 作者
