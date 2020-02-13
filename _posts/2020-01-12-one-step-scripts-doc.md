@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      一键安装客户端脚本存档 				# 标题 
+title:      一键安装服务器端脚本存档 				# 标题 
 subtitle:   复制粘贴大法好  #副标题
 date:       2020-01-12 				# 时间
 author:     xjmaoyaoyao 						# 作者
