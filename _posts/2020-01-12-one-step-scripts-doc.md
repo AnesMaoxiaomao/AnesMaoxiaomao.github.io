@@ -96,7 +96,8 @@ Ubuntu 16.04 or Debian 9 及以上<br>
 
 一键脚本：
 
-	sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnrosen1/trojan-gfw-script/master/trojangui.sh)"
+	sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnrosen1/trojan-gfw-script/master/vps.sh)"
+
 
 ---
 
