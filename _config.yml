@@ -1,32 +1,32 @@
 # Site settings
-title: Xjmaoyaoyao Blog
-SEOTitle: 猫夭夭的博客 | Med and Tech Blog by xjmaoyaoyao
+title: 麻辣小龙猫
+SEOTitle: 麻辣小龙猫
 header-img: img/header.jpg
-email: xjmaoyaoyao@gmail.com
-description: "小医生的三脚猫技术体验，安卓搞机、科学上网、文献检索。"
-keyword: "Med and Tech Blog, xjmaoyaoyao, 猫夭夭的博客, 科学上网, Android, 文献检索"
-url: "http://xjmaoyaoyao.github.io"          # your host, for absolute URL
+email: malaxiaolongmao@gmail.com
+description: "菜鸟麻醉医生，规培中"
+keyword: "麻醉, 麻辣小龙猫, malaxiaolongmao, 规培"
+url: "http://malaxiaolongmao.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/xjmaoyaoyao/xjmaoyaoyao.github.io" # you code repository
+github_repo: "https://github.com/malaxiaolongmao/malaxiaolongmao.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "小医生的三脚猫技术体验，安卓搞机、科学上网、文献检索。"
-sidebar-avatar: /img/me_rainbow.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "菜鸟麻醉医生，规培中。"
+sidebar-avatar: /img/android-chrome-512x512.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
-RSS: false
+RSS: true
 # weibo_username:     
-# zhihu_username:     
-github_username:    xjmaoyaoyao
+zhihu_username:    ma-la-xiao-long-mao-16 
+github_username:    malaxiaolongmao
 # facebook_username:   
 # jianshu_username:   
-# twitter_username:   
-mastodon:
- - username: maoyaoyao
- - instance: mastodon.social
+twitter_username:   malaxiaolongmao
+# mastodon:
+ # - username: maoyaoyao
+ # - instance: mastodon.social
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -62,13 +62,13 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: ab772cdf4db6a7329a3b                            #生成的clientID
-  clientSecret: 14a285b8791e97a244394b116daa60fad55155cb
+  clientID: f986bda8cd455015c4b6                            #生成的clientID
+  clientSecret: 151a9abe18945afa9eded2a9ea2c9cb03233d0e6
     #生成的clientSecret
-  repo: xjmaoyaoyao.github.io    #仓库名称
-  owner: xjmaoyaoyao    #github用户名
-  admin: xjmaoyaoyao
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  repo: malaxiaolongmao.github.io    #仓库名称
+  owner: malaxiaolongmao    #github用户名
+  admin: malaxiaolongmao
+  distractionFreeMode: false #是否启用类似FB的阴影遮罩
 
 
 # 统计
@@ -89,7 +89,7 @@ gitalk:
 featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
-
+sidebar: true
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
@@ -98,7 +98,7 @@ service-worker: true
 
 
 # Friends
-friends: [
+#friends: [
     # {
         # title: "WY",
         # href: "http://zhengwuyang.com"

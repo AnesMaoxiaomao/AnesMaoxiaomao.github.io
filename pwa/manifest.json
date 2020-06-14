@@ -1,11 +1,11 @@
 /*
 {
-  "name": "BY Blog",
-  "short_name": "BY Blog",
-  "description": "A personal blog by engineer",
+  "name": "麻辣小龙猫",
+  "short_name": "麻辣小龙猫",
+  "description": "A personal blog by an anesthesiologist",
   "icons": [{
-    "src": "icons/pwa_icon_128.png",
-    "sizes": "128x128",
+    "src": "icons/pwa_icon_192.png",
+    "sizes": "192x192",
     "type": "image/png"
   }, {
     "src": "icons/pwa_icon_512.png",

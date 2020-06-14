@@ -1,20 +1,15 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      一键安装服务器端脚本存档 				# 标题 
-subtitle:   复制粘贴大法好  #副标题
-date:       2020-01-12 				# 时间
-author:     xjmaoyaoyao 						# 作者
-header-img: img/header.jpg 	#这篇文章标题背景图片
-catalog: true 						# 是否归档
+title:      服务器端一键安装翻墙脚本存档 				# 标题 
+date:       2020-06-14 				# 时间
+author:     麻辣小龙猫 						# 作者
+categories: IT 						
 tags:								#标签
-    - 网络
-    - 科学上网（翻墙）
-    - shadowsocks/shadowsocksR（SS/SSR）
+    - 翻墙
+    - shadowsocks
     - V2ray
-    - ws+tls
     - Trojan
     - 一键脚本
-    - 自用存档
     - BBR加速
 ---
 
@@ -37,10 +32,11 @@ tags:								#标签
 	sudo useradd -r -M -G certusers trojan #无目录权限
 	sudo useradd -r -m -G certusers acme #有目录权限
     
+<!-- more -->
 ---
 
 
-### 原版SS
+## 原版SS
 
 CentOS 6+，Debian 7+，Ubuntu 12+<br>
 
@@ -58,7 +54,7 @@ CentOS 6+，Debian 7+，Ubuntu 12+<br>
 
 ---
 
-### V2Ray
+## V2Ray
 
 ##### 时间校准
 例：查看
@@ -86,7 +82,7 @@ CentOS 6+，Debian 7+，Ubuntu 12+<br>
 
 ---
 
-### Trojan
+## Trojan
 Ubuntu 16.04 or Debian 9 及以上<br>
 参考<https://www.johnrosen1.com/trojan/><br><br>
 
@@ -101,7 +97,7 @@ Ubuntu 16.04 or Debian 9 及以上<br>
 
 ---
 
-### BBR
+## BBR
 
 Trojan自带BBR加强，不用装
 
