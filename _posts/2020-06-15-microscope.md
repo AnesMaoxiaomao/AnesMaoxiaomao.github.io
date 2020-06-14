@@ -1,5 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
+catalog: true
 title:      显微镜使用笔记 				# 标题 
 date:       2020-06-15 				# 时间
 author:     麻辣小龙猫 						# 作者
