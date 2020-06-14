@@ -1,0 +1,35 @@
+---
+title: Achieves
+layout: page
+description: And ye shall know the truth, and truth shall make you FREE.
+header-img: "img/header.jpg"
+---
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+
+      <div class="archive-posts-list">
+        <ul class="posts-list">
+        {% for post in site.posts %}
+				 <div class="post-preview">
+				    <a href="{{ post.url | prepend: site.baseurl }}">
+				        <h3 class="post-title">
+                            {{ post.title }}
+				        </h3>
+				        {% if post.subtitle %}
+				        <h4 class="post-subtitle">
+				            {{ post.subtitle }}
+				        </h4>
+				        {% endif %}
+				    </a>
+				    <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p>
+				</div>
+				<hr>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

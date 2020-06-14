@@ -81,22 +81,6 @@ layout: default
                 col-xs-12
                 sidebar-container
             ">
-                <!-- Featured Tags -->
-                {% if site.featured-tags %}
-                <section>
-                    <hr class="hidden-sm hidden-xs">
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
-                    <div class="tags">
-                        {% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
-                                <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-                                    {{ tag[0] }}
-                                </a>
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-                </section>
-                {% endif %}
 
                 <!-- Short About -->
                 <section class="visible-md visible-lg">
@@ -190,6 +174,34 @@ layout: default
                         {% endif %}
                     </div>
                 </section>
+				<!-- Categories -->
+                {% if site.categories %}
+                <hr>
+                <h5>CATEGORIES</h5>
+                <ul class="list-inline">
+                    {% for category in site.categories %}
+                        <a href="/categories/#{{ category[0] }}" >{{ category[0] }}({{ category[1].size }})</a><br>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+				
+                <!-- Featured Tags -->
+                {% if site.featured-tags %}
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        {% for tag in site.tags %}
+                            {% if tag[1].size > {{site.featured-condition-size}} %}
+                                <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                                    {{ tag[0] }}
+                                </a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </section>
+                {% endif %}
+				
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
