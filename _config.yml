@@ -1,6 +1,6 @@
 # Site settings
-title: 麻辣小龙猫
-SEOTitle: 麻辣小龙猫
+title: 麻辣小龙猫 
+SEOTitle: 麻辣小龙猫 | A Personal Blog
 header-img: img/header.jpg
 email: malaxiaolongmao@gmail.com
 description: "菜鸟麻醉医生，规培中"
@@ -11,7 +11,7 @@ github_repo: "https://github.com/malaxiaolongmao/malaxiaolongmao.github.io" # yo
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "菜鸟麻醉医生，规培中。"
+sidebar-about-description: "菜鸟麻醉医生，规培中"
 sidebar-avatar: /img/android-chrome-512x512.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -19,7 +19,7 @@ sidebar-avatar: /img/android-chrome-512x512.png      # use absolute URL, seeing 
 # SNS settings
 RSS: true
 # weibo_username:     
-zhihu_username:    ma-la-xiao-long-mao-16 
+# zhihu_username:     
 github_username:    malaxiaolongmao
 # facebook_username:   
 # jianshu_username:   
@@ -90,6 +90,7 @@ featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
+
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
@@ -97,7 +98,7 @@ service-worker: true
 
 
 # Friends
-#friends: [
+friends: [
     # {
         # title: "WY",
         # href: "http://zhengwuyang.com"

@@ -1,0 +1,101 @@
+I"p<h2 id="服务器设置推荐">服务器设置（推荐！）</h2>
+
+<h4 id="建有sudo权限的用户">建有sudo权限的用户</h4>
+<p>例：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo useradd -m -s /bin/bash trojanuser
+sudo passwd trojanuser
+sudo usermod -G sudo trojanuser
+su -l trojanuser
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h4 id="建无sudo权限的用户">建无sudo权限的用户</h4>
+<p>例：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo groupadd certusers
+sudo useradd -r -M -G certusers trojan #无目录权限
+sudo useradd -r -m -G certusers acme #有目录权限
+</code></pre></div></div>
+
+<!-- more -->
+<hr />
+
+<h2 id="原版ss">原版SS</h2>
+
+<p>CentOS 6+，Debian 7+，Ubuntu 12+<br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+chmod +x shadowsocks.sh
+./shadowsocks.sh 2&gt;&amp;1 | tee shadowsocks.log
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="ssr不推荐">SSR(不推荐)</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget --no-check-certificate	 https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
+chmod +x shadowsocksR.sh
+./shadowsocksR.sh 2&gt;&amp;1 | tee shadowsocksR.log
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="v2ray">V2Ray</h2>
+
+<h5 id="时间校准">时间校准</h5>
+<p>例：查看</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ date -R
+Sun, 22 Jan 2017 10:10:36 -0500
+</code></pre></div></div>
+
+<p><br />
+例：更改</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo date --set="2017-01-22 16:16:23"
+Sun 22 Jan 16:16:23 GMT 2017
+</code></pre></div></div>
+
+<h5 id="一键安装">一键安装</h5>
+<p>使用 Debian 8.x 以上或者 Ubuntu 16.04 以上的 Linux 系统</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ wget https://install.direct/go.sh
+$ sudo bash go.sh
+
+$ sudo systemctl start v2ray
+</code></pre></div></div>
+
+<h3 id="v2raywstls配置">V2Ray+WS+TLS配置</h3>
+
+<p>我是懒鬼，我选择Trojan自带的那个</p>
+
+<hr />
+
+<h2 id="trojan">Trojan</h2>
+<p>Ubuntu 16.04 or Debian 9 及以上<br />
+参考<a href="https://www.johnrosen1.com/trojan/">https://www.johnrosen1.com/trojan/</a><br /><br /></p>
+
+<p>安装依赖：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get update &amp;&amp; apt-get install whiptail sudo curl -y
+</code></pre></div></div>
+
+<p>一键脚本：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnrosen1/trojan-gfw-script/master/vps.sh)"
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="bbr">BBR</h2>
+
+<p>Trojan自带BBR加强，不用装</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+chmod +x bbr.sh
+./bbr.sh
+</code></pre></div></div>
+
+:ET
