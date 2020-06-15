@@ -4,7 +4,7 @@ catalog: true
 title:      服务器端一键安装翻墙脚本存档 				# 标题 
 date:       2020-06-14 				# 时间
 author:     麻辣小龙猫 						# 作者
-categories: IT 						
+categories:  工具					
 tags:								#标签
     - 翻墙
     - shadowsocks
