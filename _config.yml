@@ -1,7 +1,7 @@
 # Site settings
 title: 麻辣小龙猫
 SEOTitle: 麻辣小龙猫 | A Personal Blog
-header-img: img/header.jpg
+header-img: img/header1.jpg
 email: malaxiaolongmao@gmail.com
 description: "菜鸟麻醉医生，规培中"
 keyword: "麻醉, 麻辣小龙猫, malaxiaolongmao, 规培"
@@ -99,17 +99,22 @@ service-worker: true
 
 # Friends
 friends: [
-    # {
-        # title: "WY",
-        # href: "http://zhengwuyang.com"
-    # },{
-        # title: "简书·BY",
-        # href: "http://www.jianshu.com/u/e71990ada2fd"
-    # },{
-        # title: "Apple",
-        # href: "https://apple.com"
-    # },{
-        # title: "Apple Developer",
-        # href: "https://developer.apple.com/"
-    # }
+    {
+    title: "Banner vector created by starline - www.freepik.com", 
+    href: "https://www.freepik.com/free-photos-vectors/banner"
+    },
+
+    {
+        title: "WY",
+        href: "http://zhengwuyang.com"
+    },{
+        title: "简书·BY",
+        href: "http://www.jianshu.com/u/e71990ada2fd"
+    },{
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
+    }
 ]
