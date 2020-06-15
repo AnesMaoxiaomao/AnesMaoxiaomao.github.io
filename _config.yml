@@ -102,9 +102,9 @@ friends: [
     {
     title: "Banner vector created by starline - www.freepik.com", 
     href: "https://www.freepik.com/free-photos-vectors/banner"}
-    ,{
-    title: "提到我的",
-    herf: "https://webmention.io/api/mentions.html?token=SaCK7LVPJeh_-NSGmsdS_g"}
+    # ,{
+    # title: "提到我的",
+    # herf: "https://webmention.io/api/mentions.html?token=SaCK7LVPJeh_-NSGmsdS_g"}
 
     # ,{
         # title: "WY",
