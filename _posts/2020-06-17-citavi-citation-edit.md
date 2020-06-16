@@ -62,20 +62,16 @@ Citavi支持用户自己修改引用样式。<br>
 以“杂志名称大小写”为例：<br>1. 如前所述 Ctrl + Shift + F11，选择要修改的样式，进入编辑窗口
 
 ![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617004150682095.png)
-<br>
-2. 单击 Journal Artical，双击 .Periodical<br>
+<br>2. 单击 Journal Artical，双击 .Periodical<br>
 
 ![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617005445580525.png)
-<br>
-3. 进入新窗口后，点击空白部位，取消对 .Periodical 的选择，并点选 Filter过滤器 的选框<br>
+<br>3. 进入新窗口后，点击空白部位，取消对 .Periodical 的选择，并点选 Filter过滤器 的选框<br>
 
 ![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617005700750780.png)
-<br>
-4. Add filter<br>
+<br>4. Add filter<br>
 
 ![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617005902669235.png)
-<br>
-5. 学C#<br>
+<br>5. 学C#<br>
 
 ![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617010420528065.png)
 <br>
