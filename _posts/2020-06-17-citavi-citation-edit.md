@@ -89,7 +89,7 @@ Citavi官方有GitHub账号<https://github.com/Citavi>，他们搞了四个仓�
 对于本文之前提的要求：
 >杂志名称大小写。（“按英文习惯规定”，实际上是正常词语首字母大写，虚词全部小写。）
 
-Citavi 官方给出了[完美的答案](https://github.com/Citavi/C6-Citation-Style-Scripts/blob/master/Components/COT%20Other/COT007%20Capitalize%20first%20letter%20of%20simple%20text%20field%20elements/COT007_Capitalize_first_letter_of_simple_text_field_elements.cs>)。
+Citavi 官方给出了[完美的答案](https://github.com/Citavi/C6-Citation-Style-Scripts/blob/master/Components/COT%20Other/COT007%20Capitalize%20first%20letter%20of%20simple%20text%20field%20elements/COT007_Capitalize_first_letter_of_simple_text_field_elements.cs)。
 <br>
 
 之后怎么做就不用我一步步讲了吧？
