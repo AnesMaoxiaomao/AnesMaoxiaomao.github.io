@@ -17,6 +17,8 @@ tags:								#标签
 
 正常的文献管理软件都会支持特定格式参考文献的导出。然而，软件内置的格式，虽然名称是那个名称，但形式却并不符合盲审老师的要求。以国标 GB/T 7714-2015 为例：
 
+<!-- more -->
+
 ## 国标 GB/T 7714-2015
 
 ![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200616235918053273.png)
