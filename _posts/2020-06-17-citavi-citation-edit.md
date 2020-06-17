@@ -21,7 +21,7 @@ tags:								#标签
 
 ## 国标 GB/T 7714-2015
 
-![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200616235918053273.png)
+![](https://www.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200616235918053273.png)
 
 咱国高校毕业论文要求里一般都会附上这么一个纸质扫描版的pdf供学生们检阅，其中给出了一系列的规范在此不赘述。<br>
 
@@ -31,12 +31,12 @@ tags:								#标签
 
 真实国标文件给出的示例：<br>
 
-![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617000726071796.png)
+![](https://www.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617000726071796.png)
 
 <br>
 Citavi软件里，网友提供了国标 citation style，生成的参考文献长这样：<br>
 
-![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617001728289287.png)
+![](https://www.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617001728289287.png)
 
 <br>
 不同点在于：<br>
@@ -48,7 +48,7 @@ Citavi软件里，网友提供了国标 citation style，生成的参考文献�
 毕业生，盲审deadline当头，预审意见有12345678条要逐一修改，好心的师兄师姐催着问有没有改好快给ta看看……在这当头，怎么可能对着一百多条参考文献肉眼手工修改呢？
 
 ## 批量修改引用样式
-![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617002825626288.png)
+![](https://www.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617002825626288.png)
 <br>
 Citavi支持用户自己修改引用样式。<br>
 网络上有Citavi中文样式修改教程，我这里就不重复造轮子了。
@@ -61,19 +61,19 @@ Citavi支持用户自己修改引用样式。<br>
 
 以“杂志名称大小写”为例：<br>1. 如前所述 Ctrl + Shift + F11，选择要修改的样式，进入编辑窗口
 
-![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617004150682095.png)
+![](https://www.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617004150682095.png)
 <br>2. 单击 Journal Artical，双击 .Periodical<br>
 
-![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617005445580525.png)
+![](https://www.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617005445580525.png)
 <br>3. 进入新窗口后，点击空白部位，取消对 .Periodical 的选择，并点选 Filter过滤器 的选框<br>
 
-![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617005700750780.png)
+![](https://www.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617005700750780.png)
 <br>4. Add filter<br>
 
-![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617005902669235.png)
+![](https://www.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617005902669235.png)
 <br>5. 学C#<br>
 
-![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617010420528065.png)
+![](https://www.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617010420528065.png)
 <br>
 
 开个玩笑，学C#自然是很好，但**外行人就不要想着自己造轮子了！**
@@ -83,7 +83,7 @@ Citavi支持用户自己修改引用样式。<br>
 ## 上GitHub找现成的过滤器代码
 Citavi官方有GitHub账号<https://github.com/Citavi>，他们搞了四个仓库：<br>
 
-![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617011037922548.png)
+![](https://www.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200617011037922548.png)
 <br>
 去那里找我们需要的代码，不言自明~<br>
 对于本文之前提的要求：
