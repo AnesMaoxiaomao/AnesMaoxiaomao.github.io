@@ -2,7 +2,7 @@
 layout:     post   	  # 使用的布局（不需要改）
 catalog: true
 title:      HTTPS反向代理的设置	# 标题 
-date:       2020-06-18 	
+date:       2020-06-19 	
 author:     麻辣小龙猫 	# 作者
 categories:  工具					
 tags:	#标签
