@@ -25,7 +25,7 @@ tags:	#标签
 
 ![](https://raw.githubusercontent.com/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200618142021917890.png)
 
-在图片里选择Nginx和服务器的操作系统，按照提示操作即可。
+选择Nginx和服务器的操作系统，按照提示操作即可。
 
 #### 我遇到的坑
 我的服务器操作系统是Debian 8，不知是因为系统太老旧还是什么原因，反正在安装过程中会跳出`UnicodeEncodeError: ‘ascii’ codec can’t encode character 89-99 `之类的错误。<br>
