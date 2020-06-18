@@ -31,7 +31,7 @@ tags:	#标签
 我的服务器操作系统是Debian 8，不知是因为系统太老旧还是什么原因，反正在安装过程中会跳出`UnicodeEncodeError: ‘ascii’ codec can’t encode character 89-99 `之类的错误。<br>
 说明Nginx配置文件里有非ascii码表格里面的东西，在终端输入：
 
-	grep -r -P "[^\x00-\x7F]" /etc/apache2
+	grep -r -P "[^\x00-\x7F]" /etc/nginx
     
 看结果发现——原来是我在配置文件里写的中文注释……
 <br>
