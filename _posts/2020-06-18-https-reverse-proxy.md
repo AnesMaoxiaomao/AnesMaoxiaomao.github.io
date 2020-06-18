@@ -104,6 +104,8 @@ tags:	#标签
             proxy_set_header  X-Real-IP     $remote_addr;
 
             proxy_set_header  User-Agent    $http_user_agent;
+            
+            proxy_set_header  Accept-Encoding  “”;
 
             sub_filter https://wordpress.com  https://www.xjmaoyaoyao.monster:1234;
             sub_filter_once off;
