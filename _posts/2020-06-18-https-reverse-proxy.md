@@ -23,7 +23,7 @@ tags:	#标签
 ## Certbot申请SSL证书
 [Certbot官网](https://certbot.eff.org/)里面讲得很清楚了。不赘述。
 
-![](https://www.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200618142021917890.png)
+![](https://naive.xjmaoyaoyao.monster/malaxiaolongmao/MLXLMblogPictures/master/images/image_20200618142021917890.png)
 
 选择Nginx和服务器的操作系统，按照提示操作即可。
 
