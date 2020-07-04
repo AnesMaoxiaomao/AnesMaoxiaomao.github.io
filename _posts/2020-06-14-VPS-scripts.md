@@ -86,15 +86,11 @@ CentOS 6+，Debian 7+，Ubuntu 12+<br>
 
 ## Trojan
 Ubuntu 16.04 or Debian 9 及以上<br>
-参考<https://www.johnrosen1.com/trojan/><br><br>
+参考<https://www.johnrosen1.com/trojan/><br>
+原仓库的脚本升级后，我的小鸡装不了，现在用的是[harry3633君回退版本fork后的](https://github.com/harry3633/trojan-gfw-script) 。原命令curl后面跟的东西有点长，我自己改了一下。<br>
 
-安装依赖：
 	
-	apt-get update && apt-get install whiptail sudo curl -y
-
-一键脚本：
-
-	sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnrosen1/trojan-gfw-script/master/vps.sh)"
+	apt-get update && apt-get install sudo curl -y && curl -sO https://raw.githubusercontent.com/harry3633/trojan-gfw-script/master/trojangui.sh && sudo bash trojangui.sh
 
 
 ---
