@@ -60,7 +60,7 @@ VPS的选购网络上也有很多教程，不赘述。系统选 Ubuntu 18.04。
 方法参见[屁屁老师博文](https://pullopenbluebox.wordpress.com/2020/06/16/cloudflare-nginx-swap-ssh/)，我自己弄了2G。
 
 ## 安装Mastodon
-DO的直接用文章开头奈站长的教程。如果不幸（？）买了Vultr，那就按照[官方文档](https://docs.joinmastodon.org/admin/install/)，墙内地址<https://docs.mastodon.bgme.bid/zh-cn/admin/install/>。截至今天（2020-7-17），官方文档的版本是3.1.5。
+DO的直接用文章开头奈站长的教程。如果不幸（？）买了Vultr，那就按照[官方文档](https://docs.joinmastodon.org/admin/install/)，墙内地址<https://docs.mastodon.bgme.bid/zh-cn/admin/install/> （感谢[bgme站长](https://bgme.me/@bgme)做的反代镜像）。截至今天（2020-7-17），官方文档的版本是3.1.5。
 <br>
 过程大致分为：
 *  **装系统：** curl、Node.js、Yarn、各种安装包（如nginx之类必要的东西）、装Ruby。我前几个月装Ruby的时候，官方文档好像有点问题，里面的依赖有些需要手动改；现在没啥问题，装起来丝般顺滑。
