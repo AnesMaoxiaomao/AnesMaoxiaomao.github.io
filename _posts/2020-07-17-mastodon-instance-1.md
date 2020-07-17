@@ -19,7 +19,7 @@ tags:	#标签
 ## 事前准备
 
 ### 一个域名
-我自己这次用的域名是用来翻墙伪装的，冗长而奇怪。建议认真搞站选手买一个简介明了可爱的好域名。
+我自己这次用的域名是用来翻墙伪装的，冗长而奇怪。建议认真搞站选手买一个简明可爱的好域名。
 域名选购网络上有很多教程，可参考[这篇博文](https://www.jianshu.com/p/a07ef52bf3a7)。
 
 #### DNS解析改用cloudflare（可选）
@@ -83,7 +83,7 @@ DO的直接用文章开头奈站长的教程。如果不幸（？）买了Vultr�
 	
     RAILS_ENV=production bundle exec rake mastodon:setup
 
-此处会设置的东西存在`/home/mastodon/live/.env.production`里面，包括：
+此处设置的东西存在`/home/mastodon/live/.env.production`里面，包括：
 
 1. 域名，没啥好说的
 2. 单用户模式？（我选no）
