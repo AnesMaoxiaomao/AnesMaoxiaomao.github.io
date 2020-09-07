@@ -3,7 +3,7 @@ layout:     post   				    # 使用的布局（不需要改）
 catalog: true
 title:      术前访视与术前评估（二）
 subtitle:  课没上完，笔记没做完，未完待续，可能会鸽   # 标题 
-date:       2020-09-087				# 时间
+date:       2020-09-08				# 时间
 author:     麻辣小龙猫 						# 作者
 categories:  麻醉					
 tags:								#标签
