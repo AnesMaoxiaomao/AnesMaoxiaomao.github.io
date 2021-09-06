@@ -1,18 +1,18 @@
 # Site settings
-title: 麻辣小龙猫
-SEOTitle: 麻辣小龙猫 | A Personal Blog
+title: 麻醉猫小毛
+SEOTitle: 麻醉猫小毛 | A Personal Blog
 header-img: img/header1.jpg
-email: malaxiaolongmao@gmail.com
+email: anesmaoxiaomao@office.com
 description: "菜鸟麻醉医生，规培中"
-keyword: "麻醉, 麻辣小龙猫, malaxiaolongmao, 规培"
-url: "http://malaxiaolongmao.github.io"          # your host, for absolute URL
+keyword: "麻醉, 麻醉猫小毛, AnesMaoxiaomao, 规培, 医生"
+url: "http://anesmaoxiaomao.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/malaxiaolongmao/malaxiaolongmao.github.io" # you code repository
+github_repo: "https://github.com/anesmaoxiaomao/anesmaoxiaomao.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "菜鸟麻醉医生，规培中"
-sidebar-avatar: /img/android-chrome-512x512.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/Image003.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -20,10 +20,10 @@ sidebar-avatar: /img/android-chrome-512x512.png      # use absolute URL, seeing 
 RSS: true
 # weibo_username:     
 # zhihu_username:     
-github_username:    malaxiaolongmao
+github_username:    AnesMaoxiaomao
 # facebook_username:   
 # jianshu_username:   
-twitter_username:   malaxiaolongmao
+twitter_username:   AnesMaoxiaomao
 # mastodon:
  # - username: maoyaoyao
  # - instance: mastodon.social
@@ -60,15 +60,15 @@ kramdown:
 # disqus_username: qiubaiying
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f986bda8cd455015c4b6                            #生成的clientID
-  clientSecret: 151a9abe18945afa9eded2a9ea2c9cb03233d0e6
-    #生成的clientSecret
-  repo: malaxiaolongmao.github.io    #仓库名称
-  owner: malaxiaolongmao    #github用户名
-  admin: malaxiaolongmao
-  distractionFreeMode: false #是否启用类似FB的阴影遮罩
+# gitalk:
+  # enable: true    #是否开启Gitalk评论
+  # clientID: f986bda8cd455015c4b6                            #生成的clientID
+  # clientSecret: 151a9abe18945afa9eded2a9ea2c9cb03233d0e6
+    # #生成的clientSecret
+  # repo: malaxiaolongmao.github.io    #仓库名称
+  # owner: malaxiaolongmao    #github用户名
+  # admin: malaxiaolongmao
+  # distractionFreeMode: false #是否启用类似FB的阴影遮罩
 
 
 # 统计
