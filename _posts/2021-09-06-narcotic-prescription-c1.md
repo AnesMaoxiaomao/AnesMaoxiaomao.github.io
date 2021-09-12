@@ -6,6 +6,7 @@ date:       2021-09-06 				# 时间
 author:     麻醉猫小毛 						# 作者
 header-img: img/header.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
+categories:  麻醉	
 tags:								#标签
     - 麻方考试
 ---
