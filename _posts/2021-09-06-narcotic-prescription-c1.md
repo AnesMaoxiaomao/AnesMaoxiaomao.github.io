@@ -3,7 +3,7 @@ layout:     post   				    # 使用的布局（不需要改）
 title:      麻方考试第一章 				# 标题 
 subtitle:   总论  #副标题
 date:       2021-09-06 				# 时间
-author:     麻醉猫小毛 						# 作者
+author:     猫小毛 						# 作者
 header-img: img/header.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 categories:  麻醉	
